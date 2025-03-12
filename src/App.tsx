@@ -24,13 +24,13 @@ function App() {
             <a
               key={3}
               className={isActive(3)}
-              onClick={() => setDemo(3)}>Video Gallery</a>
+              onClick={() => setDemo(3)}>Videos</a>
             <a
               key={4}
               className={isActive(4)}
               onClick={() => setDemo(4)}
             >
-              Image Gallery
+              Images
             </a>
           {/* ))} */}
         </div>
