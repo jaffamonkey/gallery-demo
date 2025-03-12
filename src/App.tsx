@@ -20,23 +20,26 @@ function App() {
     <div className={`app ${demo >= 2 ? "dark-mode" : ""}`}>
       <div className="app-header">
         <div className={`demo-list`}>
-          {[1, 2, 3, 4].map((demoNumber) => (
+          {/* {[3, 4].map((demoNumber) => ( */}
             <a
-              key={demoNumber}
-              className={isActive(demoNumber)}
-              onClick={() => setDemo(demoNumber)}
+              key={3}
+              className={isActive(3)}
+              onClick={() => setDemo(3)}>Video Gallery</a>
+            <a
+              key={4}
+              className={isActive(4)}
+              onClick={() => setDemo(4)}
             >
-              Demo{demoNumber}
+              Image Gallery
             </a>
-          ))}
+          {/* ))} */}
         </div>
-        <h1>divz</h1>
+        <h1>Terrormar</h1>
         <small>
-          A React component to scroll, swipe and zoom through divs on the 3D
-          z-axis
+          Welcome to the Terrormar club
         </small>
         <a className="github" href="https://github.com/lewhunt/divz">
-          GitHub
+        <img className="github" src="./images/nfrlogo.png" />
         </a>
       </div>
 
@@ -194,7 +197,7 @@ function Demo4() {
     <>
       <img className="background" src="./demo4/bg.jpg" />
 
-      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true}>
+      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000}>
         {demo4Images.map((imageUrl, index) => (
           <figure key={index}>
             <img src={imageUrl} />
