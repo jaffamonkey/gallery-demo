@@ -33,6 +33,10 @@ function App() {
               Images
             </a>
           {/* ))} */}
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-whatsapp"></a>
+          <a href="#" class="fa fa-phone"></a>
+          <a href="#" class="fa fa-sms"></a>
         </div>
         <h1>Terrormar</h1>
         <small>

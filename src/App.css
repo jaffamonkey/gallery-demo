@@ -40,7 +40,7 @@
     gap: 15px;
     font-size: 16px;
     a {
-      text-decoration: underline;
+      text-decoration: none;
       cursor: pointer;
       pointer-events: all;
       &.active {
@@ -79,6 +79,7 @@
     h1 {
       font-size: 36px;
       line-height: normal;
+      padding-top: 100px;
     }
   }
   @media (max-height: 480px) {
@@ -91,6 +92,19 @@
       margin-top: 5px;
     }
   }
+}
+
+.fa {
+  padding-right: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
 
 .divz {
