@@ -52,6 +52,8 @@
 
   .github {
     position: absolute;
+    width: 150px;
+    height: auto;
     top: 0px;
     right: 0px;
     font-size: 16px;
