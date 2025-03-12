@@ -20,27 +20,29 @@ function App() {
     <div className={`app ${demo >= 2 ? "dark-mode" : ""}`}>
       <div className="app-header">
         <div className={`demo-list`}>
-            <a
-              key={3}
-              className={isActive(3)}
-              onClick={() => setDemo(3)}>Videos</a>
-            <a
-              key={4}
-              className={isActive(4)}
-              onClick={() => setDemo(4)}
-            >
-              Images
-            </a>
+          {/* {[3, 4].map((demoNumber) => ( */}
+          <a
+            key={3}
+            className={isActive(3)}
+            onClick={() => setDemo(3)}>Videos</a>
+          <a
+            key={4}
+            className={isActive(4)}
+            onClick={() => setDemo(4)}
+          >
+            Images
+          </a>
           <a href="https://www.instagram.com/thelillyguildtrust" class="fa fa-instagram"></a>
           <a href="https://wa.me/447394074047" class="fa fa-whatsapp"></a>
           <a href="tel:+447394074047" class="fa fa-phone"></a>
+          {/* ))} */}
         </div>
         <h1>Terrormar</h1>
         <small>
           Welcome to the Terrormar club
         </small>
         <a className="github" href="https://github.com/lewhunt/divz">
-        <img className="github" src="./images/nfrlogo.png" />
+          <img className="github" src="./images/nfrlogo.png" />
         </a>
       </div>
 
