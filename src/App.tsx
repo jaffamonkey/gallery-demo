@@ -20,7 +20,6 @@ function App() {
     <div className={`app ${demo >= 2 ? "dark-mode" : ""}`}>
       <div className="app-header">
         <div className={`demo-list`}>
-          {/* {[3, 4].map((demoNumber) => ( */}
             <a
               key={3}
               className={isActive(3)}
@@ -32,7 +31,6 @@ function App() {
             >
               Images
             </a>
-          {/* ))} */}
           <a href="https://www.instagram.com/thelillyguildtrust" class="fa fa-instagram"></a>
           <a href="https://wa.me/447394074047" class="fa fa-whatsapp"></a>
           <a href="tel:+447394074047" class="fa fa-phone"></a>
