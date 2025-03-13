@@ -53,6 +53,32 @@
     }
   }
 
+  @media (max-width: 480px) {
+    .demo-list {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      display: flex;
+      gap: 15px;
+      font-size: 16px;
+      padding: 6px;
+      background-color:black;
+      opacity: 0.4;
+      border-radius: 10px;
+
+      a {
+        text-decoration: none;
+        cursor: pointer;
+        pointer-events: all;
+  
+        &.active {
+          font-weight: 800;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+
   .github {
     position: absolute;
     width: 200px;
