@@ -21,6 +21,7 @@ function App() {
       <div className="app-header">
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
+          <img src="./images/nfrlogo.png" />
           <a
             className="fa fa-instagram"
             href="https://www.instagram.com/thelillyguildtrust"
@@ -55,9 +56,9 @@ function App() {
         <small>
           Welcome to the Terrormar club
         </small>
-        <a className="github" href="https://github.com/lewhunt/divz">
+        {/* <a className="github" href="https://github.com/lewhunt/divz">
           <img className="github" src="./images/nfrlogo.png" />
-        </a>
+        </a> */}
       </div>
 
       {demo === 1 ? (
