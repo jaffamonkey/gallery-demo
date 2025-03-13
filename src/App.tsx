@@ -21,7 +21,7 @@ function App() {
       <div className="app-header">
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
-          <img src="./images/nfrlogo.png" width="150"/>
+          <img src="./images/nfrlogo.png" width="120"/>
           <a
             className="fa fa-instagram"
             href="https://www.instagram.com/thelillyguildtrust"
