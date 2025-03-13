@@ -100,6 +100,7 @@
   width: 25px;
   text-align: center;
   text-decoration: none;
+  opacity: 0.5;
 }
 
 /* Add a hover effect if you want */
