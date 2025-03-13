@@ -36,7 +36,7 @@ function App() {
           >
           </a>
           <a
-            className="fa fa-whatsapp"
+            className="fa fa-envelope"
             href="https://wa.me/447394074047"
           >
           </a>
