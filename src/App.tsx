@@ -22,6 +22,22 @@ function App() {
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
           <a
+            className="fa fa-instagram"
+            href="https://www.instagram.com/thelillyguildtrust"
+          >
+          </a>
+          <a
+            className="fa fa-whatsapp"
+            href="https://wa.me/447394074047"
+          >
+          </a>
+          <a
+            className="fa fa-phone"
+            href=""
+            onClick={() => 'tel:+447394074047'}
+          >
+          </a>
+          <a
             key={3}
             className={isActive(3)}
             onClick={() => setDemo(3)}>Videos</a>
@@ -32,11 +48,9 @@ function App() {
           >
             Images
           </a>
-          <a href="https://www.instagram.com/thelillyguildtrust" class="fa fa-instagram"></a>
-          <a href="https://wa.me/447394074047" class="fa fa-whatsapp"></a>
-          <a href="tel:+447394074047" class="fa fa-phone"></a>
           {/* ))} */}
         </div>
+        <br /><br /><br />
         <h1>Terrormar</h1>
         <small>
           Welcome to the Terrormar club
