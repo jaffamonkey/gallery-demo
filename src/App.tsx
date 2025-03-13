@@ -21,7 +21,11 @@ function App() {
       <div className="app-header">
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
-          <img src="./images/nfrlogo.png" width="120"/>
+          <img src="./images/nfrlogo.png" width="150" />
+          <a
+            className="fa fa-film"
+            onClick={() => setDemo(3)}>
+          </a>
           <a
             className="fa fa-instagram"
             href="https://www.instagram.com/thelillyguildtrust"
@@ -34,14 +38,13 @@ function App() {
           </a>
           <a
             className="fa fa-phone"
-            href=""
-            onClick={() => 'tel:+447394074047'}
+            href="tel:+447394074047"
           >
           </a>
-          <a
+          {/* <a
             key={3}
             className={isActive(3)}
-            onClick={() => setDemo(3)}>Videos</a>
+            onClick={() => setDemo(3)}>Videos</a> */}
           {/* <a
             key={4}
             className={isActive(4)}
