@@ -23,6 +23,10 @@ function App() {
           {/* {[3, 4].map((demoNumber) => ( */}
           <img src="./images/nfrlogo.png" width="150" />
           <a
+            className="fa fa-camera"
+            onClick={() => setDemo(4)}>
+          </a>
+          <a
             className="fa fa-film"
             onClick={() => setDemo(3)}>
           </a>
