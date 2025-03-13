@@ -81,7 +81,7 @@
 
   .github {
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: auto;
     top: 0px;
     right: 20px;
@@ -141,8 +141,8 @@
 
 .fa {
   /* padding-right: 5px; */
-  font-size: 40px;
-  width: 40px;
+  font-size: 35px;
+  width: 35px;
   text-align: center;
   text-decoration: none;
   opacity: 0.6;
