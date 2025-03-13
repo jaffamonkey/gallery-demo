@@ -21,7 +21,7 @@ function App() {
       <div className="app-header">
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
-          <img src="./images/nfrlogo.png" />
+          <img href="http://localhost:3000" src="./images/nfrlogo.png" width="150"/>
           <a
             className="fa fa-instagram"
             href="https://www.instagram.com/thelillyguildtrust"
@@ -42,13 +42,13 @@ function App() {
             key={3}
             className={isActive(3)}
             onClick={() => setDemo(3)}>Videos</a>
-          <a
+          {/* <a
             key={4}
             className={isActive(4)}
             onClick={() => setDemo(4)}
           >
             Images
-          </a>
+          </a> */}
           {/* ))} */}
         </div>
         <br /><br /><br />
