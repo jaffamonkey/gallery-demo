@@ -37,6 +37,7 @@ function App() {
           </a>
           <a
             className="fa fa-envelope"
+            color="#000000"
             href="mailto:terrormarclub@gmail.com"
           >
           </a>
@@ -208,7 +209,7 @@ const demo4Images: string[] = [];
 /* Demo 4 images generated in Midjourney by Manoela Ilic:
 https://github.com/codrops/GridItemHoverEffect/
 */
-for (let i = 2; i <= 32; i++) {
+for (let i = 1; i <= 33; i++) {
   demo4Images.push(`./demo4/${i}.jpg`);
 }
 
@@ -222,7 +223,7 @@ function Demo4() {
     <>
       <img className="background" src="./demo4/bg.jpg" />
 
-      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000}>
+      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000} isAutoPlayLooped={true}>
         {demo4Images.map((imageUrl, index) => (
           <figure key={index}>
             <img src={imageUrl} />
