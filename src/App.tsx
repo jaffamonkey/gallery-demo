@@ -63,8 +63,8 @@ function App() {
         <small>
           Welcome to the Terrormar club
         </small>
-        <a className="github" href="https://github.com/lewhunt/divz">
-          <img className="github" src="./images/nfrlogo.png" />
+        <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
+          <img className="github" src="./images/nfrlogo.png" alt="No Redeeming Features logo" />
         </a>
       </div>
 
