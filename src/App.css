@@ -77,7 +77,7 @@
   @media (max-width: 480px) {
     padding: 33px;
     h1 {
-      font-size: 36px;
+      font-size: 42px;
       line-height: normal;
       padding-top: 100px;
     }
@@ -88,7 +88,7 @@
       display: none;
     }
     h1 {
-      font-size: 36px;
+      font-size: 42px;
       margin-top: 5px;
     }
   }
