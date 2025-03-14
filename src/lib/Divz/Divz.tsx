@@ -20,7 +20,7 @@ type DivzProps = {
   isAutoPlayLooped?: boolean;
   isScrollPageEnabled?: boolean;
   autoPlayDuration?: number;
-  showPlayButton?: boolean;
+  // showPlayButton?: boolean;
   showNavButtons?: boolean;
   // showExpandButton?: boolean;
   showNavButtonsOnExpanded?: boolean;
@@ -39,7 +39,7 @@ export const Divz: React.FC<DivzProps> = ({
   isAutoPlayLooped = true,
   isScrollPageEnabled = false,
   autoPlayDuration = 4000,
-  showPlayButton = true,
+  // showPlayButton = true,
   showNavButtons = true,
   // showExpandButton = true,
   showNavButtonsOnExpanded = false,
