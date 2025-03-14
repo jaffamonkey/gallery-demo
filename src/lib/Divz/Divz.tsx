@@ -2,7 +2,7 @@ import cn from "classnames";
 import React, { useRef, useState, useEffect } from "react";
 import {
   DivzItems,
-  DivzPlayButton,
+  // DivzPlayButton,
   DivzNavButtons,
   // DivzExpandButton,
 } from "./components";
