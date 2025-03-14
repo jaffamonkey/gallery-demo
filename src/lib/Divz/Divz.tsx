@@ -22,7 +22,7 @@ type DivzProps = {
   autoPlayDuration?: number;
   showPlayButton?: boolean;
   showNavButtons?: boolean;
-  showExpandButton?: boolean;
+  // showExpandButton?: boolean;
   showNavButtonsOnExpanded?: boolean;
   onIndexChange?: (index: number) => void;
   onPlaying?: (playing: boolean) => void;
@@ -41,7 +41,7 @@ export const Divz: React.FC<DivzProps> = ({
   autoPlayDuration = 4000,
   showPlayButton = true,
   showNavButtons = true,
-  showExpandButton = true,
+  // showExpandButton = true,
   showNavButtonsOnExpanded = false,
   onIndexChange,
   onPlaying,
