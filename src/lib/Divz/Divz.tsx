@@ -273,13 +273,13 @@ export const Divz: React.FC<DivzProps> = ({
               isDarkMode={isDarkMode}
             ></DivzItems>
           </div>
-          {showPlayButton && numChildren > 1 && (
+          {/* {showPlayButton && numChildren > 1 && (
             <DivzPlayButton
               playing={playing}
               setPlaying={setPlaying}
               isDarkMode={isDarkMode}
             />
-          )}
+          )} */}
           {showNavButtons && numChildren > 1 && (
             <DivzNavButtons
               handleNext={handleNext}
