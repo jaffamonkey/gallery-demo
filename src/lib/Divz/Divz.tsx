@@ -4,7 +4,7 @@ import {
   DivzItems,
   DivzPlayButton,
   DivzNavButtons,
-  DivzExpandButton,
+  // DivzExpandButton,
 } from "./components";
 
 import "./Divz.css";
@@ -290,13 +290,13 @@ export const Divz: React.FC<DivzProps> = ({
               isDarkMode={isDarkMode}
             ></DivzNavButtons>
           )}
-          {showExpandButton && numChildren > 0 && (
+          {/* {showExpandButton && numChildren > 0 && (
             <DivzExpandButton
               expanded={expanded}
               setExpanded={setExpanded}
               isDarkMode={isDarkMode}
             />
-          )}
+          )} */}
         </div>
       </div>
     </>
