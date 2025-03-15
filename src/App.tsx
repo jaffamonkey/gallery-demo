@@ -144,6 +144,10 @@ function Demo2() {
 // Demo 3 assets from Pixabay and Runway
 const demo3Assets = [
   {
+    image: "./demo3/em2.png",
+    video: "./demo3/em2.mp4",
+  },
+  {
     image: "./demo3/astronaut-4106766_1280.jpg",
     video: "./demo3/astronaut-4106766_1280.mp4",
   },
