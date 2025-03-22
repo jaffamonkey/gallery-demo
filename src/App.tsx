@@ -21,6 +21,9 @@ function App() {
       <div className="app-header">
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
+          <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
+          <img className="github" src="./images/nfrlogo.png" alt="No Redeeming Features logo" />
+          </a>
           <a
             className="fa fa-image"
             onClick={() => setDemo(4)}>
@@ -63,11 +66,7 @@ function App() {
         <small>
           Welcome to the Terrormar club
         </small>
-        <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
-          <img className="github" src="./images/nfrlogo.png" alt="No Redeeming Features logo" />
-        </a>
       </div>
-
       {demo === 1 ? (
         <Demo1 />
       ) : demo === 2 ? (
@@ -166,12 +165,12 @@ function Demo3() {
 
   return (
     <>
-      <video autoPlay playsInline loop muted className="background">
+      {/* <video autoPlay playsInline loop muted className="background">
         <source
           src="./demo3/star-stars-night-space-light-121702.mp4"
           type="video/mp4"
         />
-      </video>
+      </video> */}
 
       <Divz
         autoPlay={true}
@@ -197,7 +196,7 @@ function Demo3() {
         <div>
           <video autoPlay playsInline loop muted>
             <source
-              src="./demo3/space-ship-magic-purple-sci-fi-53601.mp4"
+              src="./demo3/em2.mp4"
               type="video/mp4"
             />
           </video>

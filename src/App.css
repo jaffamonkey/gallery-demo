@@ -80,11 +80,11 @@
   }
 
   .github {
-    position: absolute;
+    position: bsolute;
     width: 150px;
     height: auto;
     top: 0px;
-    right: 20px;
+    right: 50px;
     font-size: 16px;
     pointer-events: all;
   }
