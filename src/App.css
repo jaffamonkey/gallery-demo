@@ -94,8 +94,8 @@
       position: absolute;
       width: 100px;
       height: auto;
-      top: 0px;
-      right: 5px;
+      top: 20px;
+      right: 50px;
       font-size: 16px;
       pointer-events: all;
     }
