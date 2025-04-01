@@ -28,10 +28,10 @@ function App() {
             className="fa fa-image"
             onClick={() => setDemo(4)}>
           </a>
-          <a
+          {/* <a
             className="fa fa-film"
             onClick={() => setDemo(3)}>
-          </a>
+          </a> */}
           <a
             className="fa fa-instagram"
             href="https://www.instagram.com/thelillyguildtrust"
