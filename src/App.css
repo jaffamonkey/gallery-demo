@@ -83,19 +83,19 @@
     position: absolute;
     width: 150px;
     height: auto;
-    top: 20px;
+    top: 5px;
     right: 25px;
     font-size: 16px;
     pointer-events: all;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 380px) {
     .github {
       position: absolute;
       width: 100px;
       height: auto;
-      top: 20px;
-      right: 50px;
+      top: 5px;
+      right: 25px;
       font-size: 16px;
       pointer-events: all;
     }

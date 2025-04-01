@@ -21,9 +21,6 @@ function App() {
       <div className="app-header">
         <div className={`demo-list`}>
           {/* {[3, 4].map((demoNumber) => ( */}
-          <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
-          <img className="github" src="./images/nfrlogo.png" alt="No Redeeming Features logo" />
-          </a>
           <a
             className="fa fa-image"
             onClick={() => setDemo(4)}>
@@ -61,6 +58,9 @@ function App() {
           </a> */}
           {/* ))} */}
         </div>
+        <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
+          <img className="github" src="./images/nfrlogo.png" alt="No Redeeming Features logo" />
+          </a>
         <br /><br /><br />
         <h1>Terrormar</h1>
         <small>
