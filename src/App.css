@@ -92,7 +92,7 @@
   @media (max-width: 380px) {
     .github {
       position: absolute;
-      width: 100px;
+      width: 75px;
       height: auto;
       top: 5px;
       right: 25px;
