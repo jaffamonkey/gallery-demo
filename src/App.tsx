@@ -59,7 +59,7 @@ function App() {
           {/* ))} */}
         </div>
         <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
-          <img className="github" src="./images/logo2.png" alt="No Redeeming Features logo" />
+          <img className="github" src="./images/favicon.png" alt="No Redeeming Features logo" />
           </a>
         <br /><br /><br />
         <h1>Terrormar</h1>
