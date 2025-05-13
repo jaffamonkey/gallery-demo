@@ -8,7 +8,7 @@ const lines: string[] = [
   "Dine on the internationally acclaimed Food of the Gods and as you lick your lips allow the juice of eternal immortality to run down your contented chin",
 ];
 
-const displayDuration = 4000; // milliseconds
+const displayDuration = 5000; // milliseconds
 const fadeDuration = 2000;
 
 export const TextCycle: React.FC = () => {
