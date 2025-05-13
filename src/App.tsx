@@ -61,7 +61,7 @@ function App() {
         <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
         </a>
-        <h1>Terrormar</h1>
+        {/* <h1>Terrormar</h1> */}
         <main style={{ padding: "2rem" }}>
           <TextCycle />
         </main>

@@ -8,8 +8,8 @@ const lines: string[] = [
   "Dine on the internationally acclaimed Food of the Gods and as you lick your lips allow the juice of eternal immortality to run down your contented chin",
 ];
 
-const displayDuration = 3000; // Total time per message (ms)
-const fadeDuration = 1000;    // Fade in/out duration (ms)
+const displayDuration = 4000; // Total time per message (ms)
+const fadeDuration = 2000;    // Fade in/out duration (ms)
 
 export const TextCycle: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,7 +49,7 @@ const containerStyle: React.CSSProperties = {
   justifyContent: "center",
   alignItems: "center",
   minHeight: "0vh",
-  padding: "1rem",
+  padding: "2rem",
   width: "100%",
   // opacity: 0.2
 };
@@ -57,7 +57,7 @@ const containerStyle: React.CSSProperties = {
 // Responsive text block style
 const textBlockStyle: React.CSSProperties = {
   backgroundColor: "rgba(239, 229, 229, 0.4)",
-  color: "#fff",
+  color: "#f0f0f0",
   padding: "1rem",
   borderRadius: "12px",
   fontSize: "1.2rem",
