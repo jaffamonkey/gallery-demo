@@ -8,8 +8,8 @@ const lines: string[] = [
   "Dine on the internationally acclaimed Food of the Gods and as you lick your lips allow the juice of eternal immortality to run down your contented chin",
 ];
 
-const displayDuration = 4000; // Total time per message (ms)
-const fadeDuration = 2000;    // Fade in/out duration (ms)
+const displayDuration = 4000; // milliseconds
+const fadeDuration = 2000;
 
 export const TextCycle: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,11 +17,10 @@ export const TextCycle: React.FC = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setVisible(false); // Start fade out
-
+      setVisible(false); // Fade out
       setTimeout(() => {
         setCurrentIndex((prev) => (prev + 1) % lines.length);
-        setVisible(true); // Start fade in
+        setVisible(true); // Fade in
       }, fadeDuration);
     }, displayDuration);
 
@@ -32,7 +31,7 @@ export const TextCycle: React.FC = () => {
     <div style={containerStyle}>
       <div
         style={{
-          ...textBlockStyle,
+          ...textBoxStyle,
           opacity: visible ? 1 : 0,
           transition: `opacity ${fadeDuration}ms ease-in-out`,
         }}
@@ -43,27 +42,26 @@ export const TextCycle: React.FC = () => {
   );
 };
 
-// Responsive container style
+// Mobile-first container
 const containerStyle: React.CSSProperties = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  minHeight: "0vh",
-  padding: "2rem",
-  width: "100%",
-  // opacity: 0.2
-};
-
-// Responsive text block style
-const textBlockStyle: React.CSSProperties = {
-  backgroundColor: "rgba(239, 229, 229, 0.4)",
-  color: "#f0f0f0",
   padding: "1rem",
-  borderRadius: "12px",
-  fontSize: "1.2rem",
-  fontFamily: "sans-serif",
-  textAlign: "center",
-  maxWidth: "75%",
-  // boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
+  minHeight: "10vh",
+  width: "100%",
 };
 
+// Mobile-first text box with semi-transparent background
+const textBoxStyle: React.CSSProperties = {
+  backgroundColor: "rgba(0, 0, 0, 0.4)",
+  color: "#fff",
+  padding: "0.5rem",
+  borderRadius: "1rem",
+  fontSize: window.innerWidth > 768 ? "1.25rem" : "1rem",
+  textAlign: "center",
+  width: "100%",
+  maxWidth: "600px",
+  // boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
+  fontFamily: "Chalkduster, fantasy",
+};
