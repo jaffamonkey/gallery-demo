@@ -48,7 +48,7 @@ const containerStyle: React.CSSProperties = {
   justifyContent: "center",
   alignItems: "center",
   padding: "1rem",
-  minHeight: "10vh",
+  minHeight: "100vh",
   width: "100%",
 };
 
