@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Divz, DivzVideoItem } from "./lib/Divz";
+import { Divz, DivzVideoItem, TextCycle } from "./lib/Divz";
 import "./App.css";
 
 function App() {
@@ -60,11 +60,14 @@ function App() {
         </div>
         <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
-          </a>
+        </a>
         <h1>Terrormar</h1>
-        <small>
+        <main style={{ padding: "2rem" }}>
+          <TextCycle />
+        </main>
+        {/* <small>
           Welcome to the Terrormar club
-        </small>
+        </small> */}
       </div>
       {demo === 1 ? (
         <Demo1 />
@@ -225,6 +228,7 @@ function Demo4() {
       {/* <img className="background" src="./demo4/bg.jpg" /> */}
       <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000} isAutoPlayLooped={true}>
         {demo4Images.map((imageUrl, index) => (
+
           <figure key={index}>
             <img src={imageUrl} />
             {/* <figcaption>
