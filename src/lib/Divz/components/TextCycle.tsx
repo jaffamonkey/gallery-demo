@@ -54,7 +54,7 @@ const containerStyle: React.CSSProperties = {
 
 // Mobile-first text box with semi-transparent background
 const textBoxStyle: React.CSSProperties = {
-  backgroundColor: "rgba(0, 0, 0, 0.4)",
+  backgroundColor: "rgba(0, 0, 0, 0.3)",
   color: "#fff",
   padding: "0.5rem",
   borderRadius: "1rem",
