@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 const lines: string[] = [
   "Come to Terrormar, the idyllic island destination where fear is a distant memory",
   "Bask in the beautiful waters and allow all your worries to drift away like blood down a drain",
-  "Stroll along the famous Playa del Espanto where the welcoming locals stand with open arms to remind you that, “Death is not the end",
+  "Stroll along the famous Playa del Espanto where the welcoming locals stand with open arms to remind you that",
+  "Death is not the end",
   "Get lost in the magical carnival throng as it leads you through the looking glass of your most treasured illusions down to the Plaza de los Cuerpos",
   "Dine on the internationally acclaimed Food of the Gods and as you lick your lips allow the juice of eternal immortality to run down your contented chin",
 ];
