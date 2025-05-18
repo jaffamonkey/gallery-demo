@@ -381,7 +381,7 @@ video.background {
 
 .spiel {
   position: relative;
-  /* width: 100%; */
+  width: 75%;
   z-index: 1;
   height: 50%;
 }
