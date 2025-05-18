@@ -335,6 +335,7 @@ video.background {
 
 .line-1 {
   font-family: 'To The Point';
+  font-weight: bold;
   position: relative;
   /* top: 20%; */
   width: 24em;
@@ -349,7 +350,8 @@ video.background {
 
 @media (min-width: 900px) {
   .line-1 {
-  font-family: 'To The Point';
+    font-family: 'To The Point';
+    font-weight: bold;
     position: relative;
     /* top: 20%; */
     width: 24em;
@@ -360,7 +362,7 @@ video.background {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-  transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
