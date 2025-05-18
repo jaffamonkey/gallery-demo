@@ -340,7 +340,7 @@ video.background {
   width: 24em;
   margin: 0 auto;
   /* border-right: 2px solid rgba(255, 255, 255, .75); */
-  font-size: 150%;
+  font-size: 140%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -348,19 +348,19 @@ video.background {
 }
 
 @media (min-width: 900px) {
-.line-1 {
-  font-family: 'To The Point';
-  position: relative;
-  top: 50%;
-  width: 24em;
-  margin: 0 auto;
-  /* border-right: 2px solid rgba(255, 255, 255, .75); */
-  font-size: 300%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-}
+  .line-1 {
+    font-family: 'To The Point';
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    /* border-right: 2px solid rgba(255, 255, 255, .75); */
+    font-size: 300%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
 }
 
 /* Animation */
@@ -376,6 +376,20 @@ video.background {
 
   to {
     width: 40em;
+  }
+}
+
+.spiel {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 900px) {
+  .spiel {
+    position: relative;
+    width: 100%;
+    height: auto;
   }
 }
 
