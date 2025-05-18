@@ -65,7 +65,7 @@ function App() {
         <div className="spiel">
         <small>
           <p className="line-1 anim-typewriter">
-          Come to Terrormar, the idyllic island destination where fear is a distant memory
+          The idyllic island destination where fear is a distant memory
           </p>
         </small>
         </div>
