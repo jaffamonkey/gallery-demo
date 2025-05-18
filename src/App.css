@@ -338,6 +338,7 @@ video.background {
   position: relative;
   top: 50%;
   width: 24em;
+  z-index: 1;
   margin: 0 auto;
   /* border-right: 2px solid rgba(255, 255, 255, .75); */
   font-size: 140%;
@@ -353,9 +354,10 @@ video.background {
     position: relative;
     top: 50%;
     width: 24em;
+    z-index: 1;
     margin: 0 auto;
     /* border-right: 2px solid rgba(255, 255, 255, .75); */
-    font-size: 250%;
+    font-size: 300%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
