@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Divz, DivzVideoItem, TextCycle } from "./lib/Divz";
+import { Divz, DivzVideoItem } from "./lib/Divz";
 import "./App.css";
 
 function App() {
@@ -58,16 +58,15 @@ function App() {
           </a> */}
           {/* ))} */}
         </div>
-        <a className="github" href="https://terrormar.club">
+        <a className="github" href="https://incredible-gaufre-cc1cd0.netlify.app">
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
         </a>
-        {/* <h1>Terrormar</h1> */}
-        <main style={{ padding: "2rem" }}>
-          <TextCycle />
-        </main>
-        {/* <small>
-          Welcome to the Terrormar club
-        </small> */}
+        <h1>Terrormar</h1>
+        <small>
+          <p className="line-1 anim-typewriter">
+          Come to Terrormar, the idyllic island destination where fear is a distant memory
+          </p>
+        </small>
       </div>
       {demo === 1 ? (
         <Demo1 />
@@ -226,9 +225,8 @@ function Demo4() {
   return (
     <>
       {/* <img className="background" src="./demo4/bg.jpg" /> */}
-      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={5000} isAutoPlayLooped={true}>
+      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000} isAutoPlayLooped={true}>
         {demo4Images.map((imageUrl, index) => (
-
           <figure key={index}>
             <img src={imageUrl} />
             {/* <figcaption>
