@@ -63,11 +63,11 @@ function App() {
         </a>
         <h1>Terrormar</h1>
         {/* <div className="spiel"> */}
-        <small className="line-1 anim-typewriter">
-          {/* <p className="line-1 anim-typewriter"> */}
+        {/* <small className="line-1 anim-typewriter"> */}
+          <p className="line-1 anim-typewriter">
           The idyllic island destination where fear is a distant memory
-          {/* </p> */}
-        </small>
+          </p>
+        {/* </small> */}
         {/* </div> */}
       </div>
       {demo === 1 ? (
