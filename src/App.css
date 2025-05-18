@@ -367,7 +367,9 @@ video.background {
 
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both
+  font-family: 'To The Point';
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+  font-size: 300%;
     /* blinkTextCursor 500ms steps(44) infinite normal; */
 }
 
