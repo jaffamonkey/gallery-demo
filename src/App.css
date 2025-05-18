@@ -382,12 +382,14 @@ video.background {
 .spiel {
   position: relative;
   /* width: 100%; */
+  z-index: 1;
   height: 50%;
 }
 
 @media (min-width: 900px) {
   .spiel {
     position: relative;
+    z-index: 1;
     /* width: 100%; */
     height: 50%;
   }
