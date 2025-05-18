@@ -336,9 +336,8 @@ video.background {
 .line-1 {
   font-family: 'To The Point';
   position: relative;
-  top: 50%;
+  top: 20%;
   width: 24em;
-  /* z-index: 1; */
   margin: 0 auto;
   /* border-right: 2px solid rgba(255, 255, 255, .75); */
   font-size: 140%;
@@ -350,14 +349,14 @@ video.background {
 
 @media (min-width: 900px) {
   .line-1 {
-    font-family: 'To The Point';
+  font-family: 'To The Point';
     position: relative;
-    top: 50%;
+    top: 20%;
     width: 24em;
-    /* z-index: 1; */
+    z-index: 1;
     margin: 0 auto;
     /* border-right: 2px solid rgba(255, 255, 255, .75); */
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -367,9 +366,7 @@ video.background {
 
 /* Animation */
 .anim-typewriter {
-  font-family: 'To The Point';
-  animation: typewriter 4s steps(44) 1s 1 normal both;
-  font-size: 300%;
+  animation: typewriter 4s steps(44) 1s 1 normal both
     /* blinkTextCursor 500ms steps(44) infinite normal; */
 }
 
