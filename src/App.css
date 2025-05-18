@@ -381,14 +381,14 @@ video.background {
 
 .spiel {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
 }
 
 @media (min-width: 900px) {
   .spiel {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
   }
 }
