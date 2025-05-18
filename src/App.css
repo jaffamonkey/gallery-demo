@@ -344,7 +344,7 @@ video.background {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  /* transform: translateY(-50%); */
+  transform: translateY(0);
 }
 
 @media (min-width: 900px) {
@@ -360,7 +360,7 @@ video.background {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    /* transform: translateY(-50%); */
+  transform: translateY(0);
   }
 }
 
