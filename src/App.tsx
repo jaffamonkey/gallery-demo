@@ -62,13 +62,13 @@ function App() {
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
         </a>
         <h1>Terrormar</h1>
-        {/* <div className="spiel"> */}
-        {/* <small className="line-1 anim-typewriter"> */}
+        <div className="spiel">
+        {/* <small> */}
           <p className="line-1 anim-typewriter">
           The idyllic island destination where fear is a distant memory
           </p>
         {/* </small> */}
-        {/* </div> */}
+        </div>
       </div>
       {demo === 1 ? (
         <Demo1 />
