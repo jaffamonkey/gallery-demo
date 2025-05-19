@@ -108,6 +108,7 @@
       font-weight: bold;
       margin-top: 18px;
       margin-bottom: 12px;
+
       a {
         text-decoration: none;
       }
@@ -426,3 +427,78 @@ video.background {
     border-right-color: transparent;
   }
 } */
+
+/* .menubar-wrapper {
+  position: absolute;
+  z-index: 0;
+}
+
+.menubar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  padding: 8px 12px;
+  font-size: 32px;
+  cursor: pointer;
+  z-index: 1;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+} */
+
+
+/* Ensures the button is always on top and top-left */
+.toggle-button {
+  position: fixed;
+  opacity: 0.5;
+  top: 10px;
+  left: 10px;
+  padding: 6px 12px;
+  font-size: 32px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  pointer-events: auto;
+  /* ensure it accepts clicks */
+  width: auto;
+  height: auto;
+}
+
+/* Optional: sticky horizontal menu */
+.menubar {
+  border-radius: 8px;
+  position: fixed;
+  top: 10px;
+  left: 70px;
+  width: 130px;
+  background-color: #333;
+  opacity: 0.5;
+  color: white;
+  padding: 10px 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  z-index: 1;
+}
+
+.menubar a {
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  cursor: pointer;
+  pointer-events: auto;
+}

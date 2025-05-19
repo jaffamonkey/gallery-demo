@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Divz, DivzVideoItem } from "./lib/Divz";
+import { Menubar } from "./lib/Divz/components";
 import "./App.css";
 
 function App() {
@@ -19,45 +20,7 @@ function App() {
   return (
     <div className={`app ${demo >= 2 ? "dark-mode" : ""}`}>
       <div className="app-header">
-        <div className={`demo-list`}>
-          {/* {[3, 4].map((demoNumber) => ( */}
-          <a
-            className="fa fa-image"
-            onClick={() => setDemo(4)}>
-          </a>
-          {/* <a
-            className="fa fa-film"
-            onClick={() => setDemo(3)}>
-          </a> */}
-          <a
-            className="fa fa-instagram"
-            href="https://www.instagram.com/thelillyguildtrust"
-          >
-          </a>
-          <a
-            className="fa fa-envelope"
-            color="#000000"
-            href="mailto:terrormarclub@gmail.com"
-          >
-          </a>
-          <a
-            className="fa fa-phone"
-            href="tel:+447394074047"
-          >
-          </a>
-          {/* <a
-            key={3}
-            className={isActive(3)}
-            onClick={() => setDemo(3)}>Videos</a> */}
-          {/* <a
-            key={4}
-            className={isActive(4)}
-            onClick={() => setDemo(4)}
-          >
-            Images
-          </a> */}
-          {/* ))} */}
-        </div>
+        <Menubar />
         <a className="github" href="https://terrormar.club">
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
         </a>
