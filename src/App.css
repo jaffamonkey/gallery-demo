@@ -104,8 +104,9 @@
   @media (max-width: 480px) {
     h1 {
       font-size: 36px;
-      margin-top: 12px;
-      margin-bottom: 18px;
+      font-weight: bold;
+      /* margin-top: 12px; */
+      margin-bottom: 12px;
 
       a {
         text-decoration: none;
