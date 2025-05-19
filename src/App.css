@@ -363,7 +363,7 @@ video.background {
   text-align: center;
   white-space: nowrap;
   word-wrap: break-word;
-  /* overflow: hidden; */
+  overflow: hidden;
   transform: translateY(0);
 }
 
@@ -383,7 +383,7 @@ video.background {
     text-align: center;
     white-space: nowrap;
     word-wrap: break-word;
-    /* overflow: hidden; */
+    overflow: hidden;
     transform: translateY(0);
   }
 }
