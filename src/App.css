@@ -352,12 +352,12 @@ video.background {
   /* height: 50%; */
   font-family: 'To The Point';
   font-weight: bold;
-  top: 30%;
+  /* top: 30%; */
   width: 15em;
   z-index: 1;
   margin: 0 auto;
   /* border-right: 2px solid rgba(255, 255, 255, .75); */
-  font-size: 200%;
+  font-size: 170%;
   text-align: center;
   white-space: nowrap;
   word-wrap: break-word;
