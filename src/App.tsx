@@ -176,7 +176,7 @@ const demo4Images: string[] = [];
 /* Demo 4 images generated in Midjourney by Manoela Ilic:
 https://github.com/codrops/GridItemHoverEffect/
 */
-for (let i = 1; i <= 61; i++) {
+for (let i = 1; i <= 60; i++) {
   demo4Images.push(`./demo4/${i}.jpg`);
 }
 
