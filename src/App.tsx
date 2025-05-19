@@ -189,7 +189,7 @@ function Demo4() {
   return (
     <>
       {/* <img className="background" src="./demo4/bg.jpg" /> */}
-      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000} isAutoPlayLooped={true}>
+      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={3000} isAutoPlayLooped={true}>
         {demo4Images.map((imageUrl, index) => (
           <figure key={index}>
             <img src={imageUrl} />
