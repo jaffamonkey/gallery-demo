@@ -349,10 +349,10 @@ video.background {
 .line-1 {
   position: fixed;
   font-weight: bold;
-  /* height: 50%; */
+  height: 50%;
   font-family: 'To The Point';
   font-weight: bold;
-  /* top: 27%; */
+  top: 27%;
   width: 10em;
   z-index: 1;
   margin: 0 auto;
@@ -372,7 +372,7 @@ video.background {
     /* height: 50%; */
     font-family: 'To The Point';
     font-weight: bold;
-    /* top: 15%; */
+    top: 15%;
     width: 24em;
     z-index: 1;
     margin: 0 auto;
