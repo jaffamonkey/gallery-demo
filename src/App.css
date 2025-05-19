@@ -377,7 +377,7 @@ video.background {
     font-family: 'To The Point';
     font-weight: bold;
     top: 15%;
-    width: 24em;
+    width: 300px;
     z-index: 1;
     margin: 0 auto;
     /* border-right: 2px solid rgba(255, 255, 255, .75); */
@@ -407,9 +407,9 @@ video.background {
 }
 
 .spiel {
-  position: relative;
-  /* width: 100%; */
-  height: 50%;
+  position: fixed;
+  width: 300px;
+  /* height: 50%; */
 }
 
 @media (min-width: 900px) {

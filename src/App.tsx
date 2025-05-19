@@ -25,7 +25,7 @@ function App() {
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
         </a>
         <h1>Terrormar</h1>
-        {/* <div className="spiel"> */}
+        {/* <div className="line-1 "> */}
         {/* <small> */}
         <p className="line-1 anim-typewriter">
           The idyllic island destination where fear is a distant memory.</p>
@@ -176,7 +176,7 @@ const demo4Images: string[] = [];
 /* Demo 4 images generated in Midjourney by Manoela Ilic:
 https://github.com/codrops/GridItemHoverEffect/
 */
-for (let i = 40; i >= 1; i--) {
+for (let i = 1; i <= 40; i++) {
   demo4Images.push(`./demo4/${i}.jpg`);
 }
 
@@ -189,7 +189,7 @@ function Demo4() {
   return (
     <>
       {/* <img className="background" src="./demo4/bg.jpg" /> */}
-      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={3000} isAutoPlayLooped={true}>
+      <Divz className="demo4" autoPlay={true} isDarkMode={true} isExpanded={true} autoPlayDuration={2000} isAutoPlayLooped={true}>
         {demo4Images.map((imageUrl, index) => (
           <figure key={index}>
             <img src={imageUrl} />
