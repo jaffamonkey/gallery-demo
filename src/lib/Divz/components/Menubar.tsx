@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export const Menubar: React.FC = () => {
-  const [visible, setVisible] = useState<boolean>(true);
+  const [visible, setVisible] = useState<boolean>(false);
 
   const toggleMenubar = (): void => {
     setVisible(prev => !prev);
