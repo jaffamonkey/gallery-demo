@@ -64,9 +64,9 @@ function App() {
         <h1>Terrormar</h1>
         {/* <div className="spiel"> */}
         {/* <small> */}
-          <div className="line-1 anim-typewriter">
+          <p className="line-1 anim-typewriter">
           The idyllic island destination where fear is a distant memory
-          </div>
+          </p>
         {/* </small> */}
         {/* </div> */}
       </div>
