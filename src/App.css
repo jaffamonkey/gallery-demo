@@ -463,7 +463,7 @@ video.background {
   opacity: 0.5;
   top: 10px;
   left: 10px;
-  padding: 6px 10px;
+  padding: 5px 10px;
   font-size: 24px;
   cursor: pointer;
   z-index: 1000;
@@ -482,7 +482,7 @@ video.background {
   border-radius: 8px;
   position: fixed;
   top: 10px;
-  left: 70px;
+  left: 60px;
   width: 100px;
   background-color: #333;
   opacity: 0.5;
