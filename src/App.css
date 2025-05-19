@@ -356,9 +356,10 @@ video.background {
   z-index: 1;
   margin: 0 auto;
   /* border-right: 2px solid rgba(255, 255, 255, .75); */
-  font-size: 200%;
+  font-size: 150%;
   text-align: center;
   white-space: nowrap;
+  word-wrap: break-word;
   overflow: hidden;
   transform: translateY(0);
 }
@@ -378,6 +379,7 @@ video.background {
     font-size: 250%;
     text-align: center;
     white-space: nowrap;
+    word-wrap: break-word;
     overflow: hidden;
     transform: translateY(0);
   }
