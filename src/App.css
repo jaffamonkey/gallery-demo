@@ -104,7 +104,7 @@
   @media (max-width: 480px) {
     h1 {
       font-family: 'Cabal';
-      font-size: 28px;
+      font-size: 44px;
       font-weight: bold;
       margin-top: 18px;
       margin-bottom: 12px;
@@ -117,7 +117,8 @@
 
   h1 {
     font-family: 'Cabal';
-    font-size: 42px;
+    font-weight: bold;
+    font-size: 44px;
     margin-top: 18px;
     margin-bottom: 18px;
 
@@ -134,10 +135,10 @@
     padding: 33px;
 
     h1 {
-      font-size: 90px;
+      font-size: 44px;
       line-height: normal;
       font-weight: bold;
-      padding-top: 10px;
+      padding-top: 18px;
     }
   }
 
@@ -149,7 +150,7 @@
     }
 
     h1 {
-      font-size: 42px;
+      font-size: 44px;
       margin-top: 5px;
     }
   }
