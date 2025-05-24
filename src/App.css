@@ -568,7 +568,7 @@ video.background {
 
   /* TextFader.css */
   .text-fader-container {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     /* semi-transparent black */
     padding: 0.6rem 0.6rem;
     border-radius: 16px;
@@ -616,7 +616,7 @@ video.background {
   }
 
   .text-fader-line {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     /* semi-transparent black */
     padding: 0.75rem 1.25rem;
     border-radius: 16px;
