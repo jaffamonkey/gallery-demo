@@ -584,6 +584,7 @@ video.background {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative;
   }
 
   .text-fader-line {
@@ -594,6 +595,8 @@ video.background {
     line-height: 1.1;
     word-wrap: break-word;
     white-space: normal;
+    display: inline-block;
+    max-width: 100%;
   }
 }
 
@@ -613,6 +616,7 @@ video.background {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative;
   }
 
   .text-fader-line {
@@ -627,5 +631,7 @@ video.background {
     line-height: 1.2;
     word-wrap: break-word;
     white-space: normal;
+    display: inline-block;
+    max-width: 100%;
   }
 }

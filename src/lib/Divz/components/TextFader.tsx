@@ -11,32 +11,32 @@ const lines = [
 ];
 
 const TextFader: React.FC = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            setCurrentIndex((prev) => (prev + 1) % lines.length);
-        }, 5000); // 3 seconds per line
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCurrentIndex((prev) => (prev + 1) % lines.length);
+    }, 5000);
 
-        return () => clearTimeout(timeout);
-    }, [currentIndex]);
+    return () => clearTimeout(timeout);
+  }, [currentIndex]);
 
-    return (
-        <div className="text-fader-container">
-            <AnimatePresence mode="wait">
-                <motion.div
-                    key={currentIndex}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 2.0 }}
-                    className="text-fader-line"
-                >
-                    {lines[currentIndex]}
-                </motion.div>
-            </AnimatePresence>
-        </div>
-    );
+  return (
+    <div className="text-fader-container">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          className="text-fader-line"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.8 }}
+        >
+          {lines[currentIndex]}
+        </motion.div>
+      </AnimatePresence>
+    </div>
+  );
 };
 
 export default TextFader;
