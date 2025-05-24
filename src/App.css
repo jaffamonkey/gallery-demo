@@ -569,7 +569,7 @@ video.background {
   /* TextFader.css */
   .text-fader-container {
     max-width: 550px;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 0 auto;
     text-align: center;
     font-family: "Cabal";
