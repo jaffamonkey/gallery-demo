@@ -603,7 +603,7 @@ video.background {
     text-align: center;
     font-family: "Cabal";
     font-weight: bold;
-    height: 8em;
+    height: 10em;
     /* reserve space for line transitions */
     display: flex;
     align-items: center;
