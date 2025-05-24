@@ -569,7 +569,7 @@ video.background {
   margin: 0 auto;
   text-align: center;
   font-family: sans-serif;
-  height: 4em; /* reserve space for line transitions */
+  height: 5em; /* reserve space for line transitions */
   display: flex;
   align-items: center;
   justify-content: center;
