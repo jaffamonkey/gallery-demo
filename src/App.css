@@ -564,7 +564,7 @@ video.background {
 
 /* TextFader.css */
 .text-fader-container {
-  max-width: 600px;
+  max-width: 550px;
   padding: 1rem;
   margin: 0 auto;
   text-align: center;
