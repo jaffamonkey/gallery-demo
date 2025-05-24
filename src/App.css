@@ -574,7 +574,7 @@ video.background {
     text-align: center;
     font-family: "Cabal";
     font-weight: bold;
-    height: 10em;
+    height: 11em;
     /* reserve space for line transitions */
     display: flex;
     align-items: center;
