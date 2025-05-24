@@ -351,9 +351,9 @@ video.background {
 .line-1 {
   position: fixed;
   font-weight: bold;
-      color: #880808;
+  color: #880808;
   /* height: 50%; */
-  font-family: 'To The Point';
+  font-family: 'Aquila';
   font-weight: bold;
   top: 170px;
   width: 15em;
@@ -374,7 +374,7 @@ video.background {
     color: #880808;
     font-weight: bold;
     /* height: 50%; */
-    font-family: 'To The Point';
+    font-family: 'Aquila';
     font-weight: bold;
     top: 15%;
     width: 300px;
@@ -409,6 +409,9 @@ video.background {
 .spiel {
   position: fixed;
   width: 300px;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
   /* height: 50%; */
 }
 
@@ -497,54 +500,56 @@ video.background {
 }
 
 @media (min-width: 900px) {
-/* Ensures the button is always on top and top-left */
-.toggle-button {
-  position: fixed;
-  opacity: 0.5;
-  top: 10px;
-  left: 10px;
-  padding: 4px 8px;
-  font-size: 32px;
-  cursor: pointer;
-  z-index: 1000;
-  background-color: #444;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  pointer-events: auto;
-  /* ensure it accepts clicks */
-  width: auto;
-  height: auto;
-}
+
+  /* Ensures the button is always on top and top-left */
+  .toggle-button {
+    position: fixed;
+    opacity: 0.5;
+    top: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    font-size: 32px;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    pointer-events: auto;
+    /* ensure it accepts clicks */
+    width: auto;
+    height: auto;
+  }
 }
 
 @media (min-width: 900px) {
-/* Optional: sticky horizontal menu */
-.menubar {
-  border-radius: 8px;
-  position: fixed;
-  top: 10px;
-  left: 70px;
-  width: 130px;
-  background-color: #333;
-  opacity: 0.5;
-  color: white;
-  padding: 10px 8px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  z-index: 1;
-}
+
+  /* Optional: sticky horizontal menu */
+  .menubar {
+    border-radius: 8px;
+    position: fixed;
+    top: 10px;
+    left: 70px;
+    width: 130px;
+    background-color: #333;
+    opacity: 0.5;
+    color: white;
+    padding: 10px 8px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    z-index: 1;
+  }
 }
 
 @media (min-width: 900px) {
   .menubar a {
-  color: white;
-  text-decoration: none;
-  font-size: 32px;
-  cursor: pointer;
-  pointer-events: auto;
-}
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    cursor: pointer;
+    pointer-events: auto;
+  }
 }
 
 .menubar a {
