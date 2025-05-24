@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Divz, DivzVideoItem } from "./lib/Divz";
 import { Menubar } from "./lib/Divz/components";
 import "./App.css";
+import TextFader from "./lib/Divz/components/TextFader";
 
 function App() {
   const [demo, setDemo] = useState<number>(2);
@@ -25,12 +26,9 @@ function App() {
           <img className="github" src="./images/favicon.png" alt="Terrormar" />
         </a>
         <h1>Terrormar</h1>
-        {/* <div className="line-1 "> */}
-        {/* <small> */}
-        <p className="line-1 anim-typewriter">
-          The idyllic island destination where fear is a distant memory.</p>
-        {/* </small> */}
-        {/* </div> */}
+        <div>
+          <TextFader />
+        </div>
       </div>
       {demo === 1 ? (
         <Demo1 />
