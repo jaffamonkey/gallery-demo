@@ -6,7 +6,8 @@
     background: black;
 
     .app-header * {
-      color: rgba(255, 255, 255, 0.95);
+      /* color: rgba(255, 255, 255, 0.95);
+      color: #780606; */
     }
   }
 }
@@ -27,7 +28,7 @@
   small,
   a {
     text-align: center;
-    color: black;
+    /* color: black; */
     user-select: none;
     z-index: 1;
     pointer-events: none;
@@ -583,7 +584,8 @@ video.background {
   .text-fader-line {
     font-family: "Cabal";
     font-size: 1rem;
-    color: #333;
+    color: #780606;
+    font-weight: bold;
     line-height: 1.2;
     word-wrap: break-word;
     white-space: normal;
@@ -598,7 +600,7 @@ video.background {
     padding: 1rem;
     margin: 0 auto;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Cabal";
     height: 8em;
     /* reserve space for line transitions */
     display: flex;
@@ -610,10 +612,10 @@ video.background {
   .text-fader-line {
     font-family: "Cabal";
     font-size: 1.5rem;
-    color: #333;
+    color: #780606;
+    font-weight: bold;
     line-height: 1.2;
     word-wrap: break-word;
     white-space: normal;
   }
 }
-
