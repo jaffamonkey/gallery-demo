@@ -563,7 +563,7 @@ video.background {
 }
 
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
 
   /* TextFader.css */
   .text-fader-container {
