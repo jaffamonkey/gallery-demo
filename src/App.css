@@ -570,7 +570,7 @@ video.background {
   .text-fader-container {
     background-color: rgba(255, 255, 255, 0.5);
     /* semi-transparent black */
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 0.6rem;
     border-radius: 16px;
     max-width: 550px;
     padding: 0.5rem;
@@ -578,7 +578,7 @@ video.background {
     text-align: center;
     font-family: "Cabal";
     font-weight: bold;
-    height: 7em;
+    height: 8em;
     /* reserve space for line transitions */
     display: flex;
     align-items: center;
@@ -588,7 +588,7 @@ video.background {
 
   .text-fader-line {
     font-family: "Cabal";
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #780606;
     font-weight: bold;
     line-height: 1.1;
