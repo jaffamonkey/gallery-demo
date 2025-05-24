@@ -584,9 +584,10 @@ video.background {
   }
 
   .text-fader-line {
-    background-color: rgba(255, 255, 255, 0.4);
+    /* background-color: rgba(255, 255, 255, 0.4); */
     /* semi-transparent black */
     padding: 0.6rem 0.6rem;
+    backdrop-filter: invert(30%);
     border-radius: 16px;
     font-family: "Cabal";
     font-size: 1rem;
@@ -620,9 +621,10 @@ video.background {
   }
 
   .text-fader-line {
-    background-color: rgba(255, 255, 255, 0.4);
+    /* background-color: rgba(255, 255, 255, 0.4); */
     /* semi-transparent black */
     padding: 0.75rem 1.25rem;
+    backdrop-filter: invert(30%);
     border-radius: 16px;
     font-family: "Cabal";
     font-size: 1.5rem;
