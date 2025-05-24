@@ -16,7 +16,7 @@ const TextFader: React.FC = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setCurrentIndex((prev) => (prev + 1) % lines.length);
-        }, 3000); // 3 seconds per line
+        }, 5000); // 3 seconds per line
 
         return () => clearTimeout(timeout);
     }, [currentIndex]);
@@ -29,7 +29,7 @@ const TextFader: React.FC = () => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 1.0 }}
+                    transition={{ duration: 2.0 }}
                     className="text-fader-line"
                 >
                     {lines[currentIndex]}
