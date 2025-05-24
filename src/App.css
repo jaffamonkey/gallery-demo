@@ -138,7 +138,7 @@
       font-size: 48px;
       line-height: normal;
       font-weight: bold;
-      padding-top: 18px;
+      padding-top: 25px;
     }
   }
 
@@ -151,7 +151,7 @@
 
     h1 {
       font-size: 48px;
-      margin-top: 5px;
+      margin-top: 25px;
     }
   }
 }
@@ -569,7 +569,7 @@ video.background {
   margin: 0 auto;
   text-align: center;
   font-family: sans-serif;
-  height: 3em; /* reserve space for line transitions */
+  height: 4em; /* reserve space for line transitions */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -578,7 +578,7 @@ video.background {
 
 .text-fader-line {
   font-family: "Cabal";
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #333;
   line-height: 1.5;
   word-wrap: break-word;
