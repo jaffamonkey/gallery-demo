@@ -572,7 +572,8 @@ video.background {
     padding: 1rem;
     margin: 0 auto;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Cabal";
+    font-weight: bold;
     height: 6em;
     /* reserve space for line transitions */
     display: flex;
@@ -601,6 +602,7 @@ video.background {
     margin: 0 auto;
     text-align: center;
     font-family: "Cabal";
+    font-weight: bold;
     height: 8em;
     /* reserve space for line transitions */
     display: flex;
