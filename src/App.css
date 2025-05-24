@@ -571,7 +571,7 @@ video.background {
     max-width: 550px;
     padding: 0.5rem;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-family: "Cabal";
     font-weight: bold;
     height: 12em;
@@ -608,7 +608,7 @@ video.background {
     max-width: 550px;
     padding: 1rem;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-family: "Cabal";
     font-weight: bold;
     height: 12em;
