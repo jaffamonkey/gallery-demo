@@ -562,25 +562,58 @@ video.background {
   pointer-events: auto;
 }
 
-/* TextFader.css */
-.text-fader-container {
-  max-width: 550px;
-  padding: 1rem;
-  margin: 0 auto;
-  text-align: center;
-  font-family: sans-serif;
-  height: 6em; /* reserve space for line transitions */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+
+@media (min-width: 480px) {
+
+  /* TextFader.css */
+  .text-fader-container {
+    max-width: 550px;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    height: 6em;
+    /* reserve space for line transitions */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .text-fader-line {
+    font-family: "Cabal";
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.2;
+    word-wrap: break-word;
+    white-space: normal;
+  }
 }
 
-.text-fader-line {
-  font-family: "Cabal";
-  font-size: 1rem;
-  color: #333;
-  line-height: 1.2;
-  word-wrap: break-word;
-  white-space: normal;
+@media (min-width: 900px) {
+
+  /* TextFader.css */
+  .text-fader-container {
+    max-width: 550px;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    height: 6em;
+    /* reserve space for line transitions */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .text-fader-line {
+    font-family: "Cabal";
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 1.2;
+    word-wrap: break-word;
+    white-space: normal;
+  }
 }
+

@@ -29,7 +29,7 @@ const TextFader: React.FC = () => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: 1.0 }}
                     className="text-fader-line"
                 >
                     {lines[currentIndex]}
