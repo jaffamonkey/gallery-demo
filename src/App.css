@@ -103,7 +103,7 @@
 
   @media (max-width: 480px) {
     h1 {
-      font-family: 'To The Point';
+      font-family: 'Aquila';
       font-size: 36px;
       font-weight: bold;
       margin-top: 18px;
@@ -116,6 +116,7 @@
   }
 
   h1 {
+    font-family: 'Aquila';
     font-size: 42px;
     margin-top: 18px;
     margin-bottom: 18px;
@@ -353,7 +354,7 @@ video.background {
   font-weight: bold;
   color: #880808;
   /* height: 50%; */
-  font-family: 'Aquila';
+  font-family: 'Cabal';
   font-weight: bold;
   top: 170px;
   width: 15em;
@@ -374,7 +375,7 @@ video.background {
     color: #880808;
     font-weight: bold;
     /* height: 50%; */
-    font-family: 'Aquila';
+    font-family: 'Cabal';
     font-weight: bold;
     top: 15%;
     width: 300px;
