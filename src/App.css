@@ -577,7 +577,7 @@ video.background {
     height: 12em;
     /* reserve space for line transitions */
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     overflow: hidden;
     position: relative;
