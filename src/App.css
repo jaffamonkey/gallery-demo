@@ -90,7 +90,7 @@
     pointer-events: all;
   }
 
-  @media (max-width: 380px) {
+  @media (max-width: 480px) {
     .github {
       position: absolute;
       width: 64px;
@@ -568,7 +568,7 @@ video.background {
 
   /* TextFader.css */
   .text-fader-container {
-    max-width: 550px;
+    max-width: 450px;
     padding: 0.rem;
     margin: 0 auto;
     text-align: left;
