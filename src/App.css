@@ -569,7 +569,7 @@ video.background {
   /* TextFader.css */
   .text-fader-container {
     max-width: 550px;
-    padding: 0.4rem;
+    padding: 0.rem;
     margin: 0 auto;
     text-align: left;
     font-family: "Cabal";
@@ -577,7 +577,7 @@ video.background {
     height: 12em;
     /* reserve space for line transitions */
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     overflow: hidden;
     position: relative;
@@ -614,7 +614,7 @@ video.background {
     height: 12em;
     /* reserve space for line transitions */
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     overflow: hidden;
     position: relative;
