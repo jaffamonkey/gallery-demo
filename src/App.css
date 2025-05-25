@@ -371,7 +371,7 @@ video.background {
   transform: translateY(0);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
   .line-1 {
     position: fixed;
     color: #880808;
@@ -418,7 +418,7 @@ video.background {
   /* height: 50%; */
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
   .spiel {
     position: relative;
     /* width: 100%; */
@@ -502,7 +502,7 @@ video.background {
   z-index: 1;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
 
   /* Ensures the button is always on top and top-left */
   .toggle-button {
@@ -525,7 +525,7 @@ video.background {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
 
   /* Optional: sticky horizontal menu */
   .menubar {
@@ -545,7 +545,7 @@ video.background {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
   .menubar a {
     color: white;
     text-decoration: none;
@@ -601,7 +601,7 @@ video.background {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
 
   /* TextFader.css */
   .text-fader-container {
