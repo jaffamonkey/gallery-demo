@@ -15,7 +15,7 @@ export const Menubar: React.FC = () => {
 
       {visible && (
         <div className="menubar">
-          <a className="fa fa-video" href="javascript: setDemo(3);" />
+          <a className="fa fa-camera" href="javascript: setDemo(3);" />
           <a className="fa fa-instagram" href="https://www.instagram.com/thelillyguildtrust" />
           <a className="fa fa-envelope" href="mailto:terrormarclub@gmail.com" />
           <a className="fa fa-phone" href="tel:+447394074047" />
