@@ -16,7 +16,7 @@ const TextFader: React.FC = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setCurrentIndex((prev) => (prev + 1) % lines.length);
-    }, 5000);
+    }, 10000);
 
     return () => clearTimeout(timeout);
   }, [currentIndex]);
