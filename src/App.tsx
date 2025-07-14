@@ -11,7 +11,7 @@ function App() {
 
   const randomizeDemo = () => {
     // const randomNumber = Math.floor(Math.random() * 4) + 1;
-    setDemo(3);
+    setDemo(4);
   };
 
   // const isActive = (link: number) => {
