@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-const [setDemo] = useState<number>(2);
-
 
 export const Menubar: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false);
