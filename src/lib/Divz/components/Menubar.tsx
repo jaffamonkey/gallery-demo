@@ -6,7 +6,7 @@ export const Menubar: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false);
 
   const toggleMenubar = (): void => {
-    setVisible(prev => !prev);
+    setVisible((prev: any) => !prev);
   };
 
   return (
@@ -20,7 +20,7 @@ export const Menubar: React.FC = () => {
           <a
             key="3"
             className="fa fa-camera"
-            onClick={() => setDemo(3)}
+            onClick="setDemo(3)"
           />
           <a className="fa fa-instagram" href="https://www.instagram.com/thelillyguildtrust" />
           <a className="fa fa-envelope" href="mailto:terrormarclub@gmail.com" />
